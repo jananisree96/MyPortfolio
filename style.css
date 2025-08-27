@@ -185,6 +185,10 @@ span {
   animation: words 20s infinite;
 }
 
+.skills {
+  padding: 2rem;
+}
+
 .text-animation span::after {
   content: "";
   background-color: var(--bg-color);
