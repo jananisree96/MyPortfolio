@@ -297,14 +297,6 @@ span {
   margin-bottom: 8rem;
 }
 
-/* .service-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 3rem;
-} */
-
 .service-container {
   display: flex;
   justify-content: space-between;
@@ -314,31 +306,28 @@ span {
 }
 
 .service-container .services-box {
-  /* flex: 1 1 40rem; */
   flex: 1 1 30%;
   max-width: 32%;
   height: auto;
-  /* display: flex; */
   flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
   background-color: var(--main-color);
   padding: 3rem 2rem 3rem;
-  /* height: 550px; */
   border-radius: 2rem;
   border: 3px solid transparent;
   cursor: pointer;
-  transition: all 0.5s ease-in-out; /* Added 0.5s duration for a smooth transition */
+  transition: all 0.5s ease-in-out;
 }
 
 @media (max-width: 900px) {
   .service-container {
-    flex-wrap: wrap; /* allow stacking on smaller devices */
+    flex-wrap: wrap;
   }
 
   .service-container .services-box {
-    flex: 1 1 100%; /* each takes full width */
+    flex: 1 1 100%;
     max-width: 100%;
   }
 }
@@ -353,10 +342,6 @@ span {
   color: black;
   margin-bottom: 1rem;
 }
-
-/* .services-box h3 {
-  font-size: 2.6rem;
-} */
 
 .services-box h3 {
   font-size: 2.2rem;
@@ -485,7 +470,7 @@ span {
 
 .projects-links {
   display: flex;
-  gap: 1.5rem; /* spacing between icons */
+  gap: 1.5rem;
   justify-content: center;
   margin-top: 1rem;
 }
@@ -510,115 +495,15 @@ span {
 
 .projects-links a:hover {
   transform: scale(1.2) translateY(-5px);
-  /* background-color: var(--main-color); */
   color: white;
 }
-
-/* .skills {
-  background-color: var(--second-bg-color);
-  margin: 0 auto;
-}
-
-.skills h2 {
-  margin-bottom: 2rem;
-}
-
-.skill-bars {
-  margin-top: 8rem;
-  padding: 25px 30px;
-  background: var(--bg-color);
-  border: 2px solid var(--main-color);
-  border-radius: 10px;
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-}
-
-.skill-bars .bar {
-  margin: 20px 0;
-}
-
-.skill-bars .bar:first-child {
-  margin-top: 0px;
-}
-
-.skill-bars .bar .info {
-  margin-bottom: 5px;
-  text-align: center;
-}
-
-.skill-bars .bar .info span {
-  color: var(--text-color);
-  font-weight: 500;
-  font-size: 17px;
-} */
-
-/* .accordion {
-  max-width: 800px;
-  margin: 0 auto;
-  border-radius: 8px;
-  overflow: hidden;
-}
-
-.accordion-item {
-  margin-bottom: 1rem;
-  border-radius: 6px;
-  overflow: hidden;
-}
-
-.accordion-header {
-  width: 100%;
-  background: var(--second-bg-color);
-  color: var(--text-color);
-  padding: 1.8rem 2.5rem; 
-  font-size: 2rem;
-  font-weight: 600;
-  text-align: left;
-  border: none;
-  cursor: pointer;
-  transition: 0.3s ease;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.accordion-header:hover {
-  background: var(--main-color);
-  color: #fff;
-}
-
-.arrow {
-  font-size: 2.4rem;
-  transition: transform 0.3s ease;
-}
-
-.accordion-header.active .arrow {
-  transform: rotate(180deg);
-}
-
-.accordion-content {
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.4s ease, padding 0.3s ease;
-  background: var(--bg-color);
-  padding: 0 2.5rem;
-  line-height: 1.8;
-}
-
-.accordion-header.active + .accordion-content {
-  padding: 1.5rem 2.5rem 3.5rem;
-}
-
-.accordion-item p {
-  font-size: 16px;
-} */
 
 .accordion {
   max-width: 800px;
   margin: 0 auto;
   border-radius: 8px;
   overflow: hidden;
-  padding: 0 1rem; /* ⬅️ Some margin for small devices */
+  padding: 0 1rem;
 }
 
 .accordion-item {
@@ -674,7 +559,6 @@ span {
   font-size: 1.6rem;
 }
 
-
 /* ------------------- Responsive ------------------- */
 
 /* Tablets */
@@ -713,7 +597,6 @@ span {
     font-size: 1.8rem;
   }
 }
-
 
 .timeline-section {
   min-height: 100vh;
