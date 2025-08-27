@@ -23,3 +23,18 @@ menuIcon.onclick = () => {
     menuIcon.classList.toggle('bx-x');
     navbar.classList.toggle('active');
 }
+
+document.querySelectorAll(".accordion-header").forEach(button => {
+  button.addEventListener("click", () => {
+    const content = button.nextElementSibling;
+
+    button.classList.toggle("active");
+
+    if (button.classList.contains("active")) {
+      content.style.maxHeight = content.scrollHeight + "px";
+    } else {
+      content.style.maxHeight = null;
+    }
+  });
+});
+
