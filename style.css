@@ -225,13 +225,13 @@ span {
 }
 
 .role-description::before {
-  content: "I build responsive web applications as a Fullstack Developer." !important;
-  animation: roleWords 20s infinite !important;
-  color: var(--text-color) !important;
-  font-size: 1.8rem !important;
-  font-weight: 500 !important;
-  display: block !important;
-  line-height: 1.6 !important;
+  content: "I build responsive web applications as a Fullstack Developer.";
+  animation: roleWords 20s infinite;
+  color: var(--text-color);
+  font-size: 1.8rem;
+  font-weight: 500;
+  display: block;
+  line-height: 1.6;
 }
 
 @keyframes roleWords {
